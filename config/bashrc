@@ -1,9 +1,7 @@
-
-version='0.1'
-
 #################
 # Global config #
 #################
+
 export PS1="\[\033[38;5;1m\]\u\[$(tput sgr0)\]\[\033[38;5;15m\] > \[$(tput sgr0)\]\[\033[38;5;1m\]\h\[$(tput sgr0)\]\[\033[38;5;15m\] : \A > \W > \[$(tput sgr0)\]"
 export PATH=/home/vincent.gendron/data/bin/:"$PATH"
 
@@ -11,23 +9,12 @@ export PATH=/home/vincent.gendron/data/bin/:"$PATH"
 # Aliases #
 ###########
 
-alias config-version='echo $version'
-
 ######
 # LS #
 ######
 
 alias la='ls -a'
 alias ll='ls -l'
-
-# ls colors
-if [ -x /usr/bin/dircolors ]; then
-  eval "`dircolors -b`"
-  alias ls='ls --color=auto'
-  alias grep='grep --color=auto'
-elif [ "$PLATFORM" = Darwin ]; then
-  alias ls='ls -G'
-fi
 
 ######
 # CD #
@@ -37,8 +24,12 @@ alias ..='cd ..'
 alias ...='cd ../..'
 alias ....='cd ../../..'
 
+alias web='cd /var/www/vg/'
+alias virtualhost='cd /etc/httpd/conf.d/'
+alias log='cd /var/log/httpd'
+
 ########
 # TMUX #
 ########
 
-alias tmux='/home/vincent.gendron/data/bin/tmux -f /home/vincent.gendron/data/config/tmux'
+alias tmux='/home/vincent.gendron/dotfiles/bin/tmux -f /home/vincent.gendron/dotfiles/config/tmux'
