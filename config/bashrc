@@ -3,7 +3,7 @@
 #################
 
 export PS1="\[\033[38;5;1m\]\u\[$(tput sgr0)\]\[\033[38;5;15m\] > \[$(tput sgr0)\]\[\033[38;5;1m\]\h\[$(tput sgr0)\]\[\033[38;5;15m\] : \A > \W > \[$(tput sgr0)\]"
-export PATH=/home/vincent.gendron/data/bin/:"$PATH"
+export PATH=/home/vincent.gendron/dotfiles/bin/:"$PATH"
 
 ###########
 # Aliases #
