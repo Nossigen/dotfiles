@@ -36,4 +36,15 @@ alias log='cd /var/log/httpd'
 # TMUX #
 ########
 
-#alias tmux='tmux -f /home/vincent.gendron/dotfiles/config/$TMUX_VERSION'
+tmux_version = $(tmux -V)
+if [ -eq $(tmux -V) = 'tmux 2.7' ]; then
+    set tmux_config='tmux2';
+elif [ $tmux_version = 'tmux 1.7']; then
+    set tmux_config='tmux1';
+elif [ $tmux_version = 'tmux 1.8']; then
+    set tmux_config='tmux1';
+fi
+
+echo $tmux_config
+
+alias tmux='tmux -f /home/vincent.gendron/dotfiles/config/$tmux_config'
