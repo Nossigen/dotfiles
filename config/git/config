@@ -1,0 +1,37 @@
+[user]
+	email = guillaume+github@dott.fr
+	name = Guillaume Dott
+[color]
+	ui = auto
+	interactive = auto
+[alias]
+	st = status -sb
+	ci = commit
+	co = checkout
+	pr = pull --rebase
+	dc = diff --cached
+	r = remote
+	lg = log --graph --pretty=tformat:'%C(red)%h%C(yellow)%d%Creset %s %Cgreen(%ad) %C(bold blue)<%aN>%Creset' --abbrev-commit --date=human
+	ll = log --stat --abbrev-commit
+	amend = commit --amend -C HEAD
+
+	s = stash
+	sl = stash list
+	ss = stash show
+[diff]
+	tool = vimdiff
+[merge]
+	tool = vimdiff
+	conflictstyle = diff3
+[mergetool]
+	keepBackup = false
+[credential]
+	helper = cache
+[help]
+	autocorrect = -1
+[rerere]
+	enabled = true
+[rebase]
+	autosquash = true
+	autostassh = true
+# vim: set filetype=gitconfig:

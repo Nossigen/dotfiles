@@ -17,6 +17,7 @@ alias fuck='man'
 # LS #
 ######
 
+alias sl='ls'
 alias la='ls -a'
 alias ll='ls -l'
 
@@ -36,4 +37,4 @@ alias log='cd /var/log/httpd'
 # TMUX #
 ########
 
-#alias tmux='tmux -f /home/vincent.gendron/dotfiles/config/$TMUX_VERSION'
+alias tmux='tmux -f /home/vincent.gendron/dotfiles/config/tmux/tmux2'
