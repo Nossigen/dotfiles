@@ -2,7 +2,32 @@
 # Global config #
 #################
 
-export PS1="\[\033[38;5;1m\]\u\[$(tput sgr0)\]\[\033[38;5;15m\] > \[$(tput sgr0)\]\[\033[38;5;1m\]\h\[$(tput sgr0)\]\[\033[38;5;15m\] : \A > \W > \[$(tput sgr0)\]"
+
+RESET="\e[0m"
+NORMAL="\033[0m"
+RED="\033[38;5;1m"
+YELLOW="\033[33;1m"
+WHITE="\033[37;1m"
+
+
+git_branch_name () {
+    branch_name="$(git symbolic-ref --short -q HEAD 2>/dev/null)"
+
+    if [ "$branch_name" != "" ]
+    then
+        echo $(printf "$YELLOW $branch_name$RESET >");
+    fi
+}
+
+user_name() {
+    echo $(printf "${RED}$USER${RESET}");
+}
+
+host_name() {
+    echo $(printf "${RED}$HOSTNAME${RESET}");
+}
+
+export PS1=" $(user_name) > $(host_name) : \A > \W >\$(git_branch_name)"
 export PATH=/home/vincent.gendron/dotfiles/bin/:"$PATH"
 
 export EDITOR='micro'

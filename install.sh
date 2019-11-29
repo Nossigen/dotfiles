@@ -12,3 +12,6 @@ echo 'fi' >> ~/.bashrc
 echo '> Git configuration'
 rm -fi "~/.gitconfig"
 cp -f "$DIR/config/git/config" ~/.gitconfig
+
+echo '> Fish configuration'
+echo exec fish >> ~/.bash_profile
