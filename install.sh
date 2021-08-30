@@ -1,8 +1,5 @@
 #!/bin/bash
 
-# Get current of the script directory
-DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
-
 echo '> Bashrc configuration'
 echo '# Vincent Gendron configuration' >> ~/.bashrc
 echo 'if [ -f ~/dotfiles/config/bashrc ]; then' >> ~/.bashrc
@@ -11,15 +8,14 @@ echo 'fi' >> ~/.bashrc
 
 echo '> Git configuration'
 if [ -f ~/.gitconfig ]; then
-  rm -fi "~/.gitconfig"
+  rm "~/.gitconfig"
 fi
-cp "$DIR/config/git/config" ~/.gitconfig
+cp "~/config/git/config" ~/.gitconfig
 
 echo '> Fish configuration'
-
 cp "$DIR/config/fish" ~/.config/fish/config.fish
 echo exec fish >> ~/.bash_profile
 
 echo '> Tmux configuration'
-cp -rf "$DIR/config/tmux" ~/.config/tmux
+cp -rf ~/config/tmux ~/.config/tmux
 git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
