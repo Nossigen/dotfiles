@@ -1,6 +1,6 @@
 [user]
-	email = guillaume+github@dott.fr
-	name = Guillaume Dott
+	email = vincent.gendron@protonmail.com
+	name = Vincent Gendron
 [color]
 	ui = auto
 	interactive = auto
@@ -18,13 +18,6 @@
 	s = stash
 	sl = stash list
 	ss = stash show
-[diff]
-	tool = vimdiff
-[merge]
-	tool = vimdiff
-	conflictstyle = diff3
-[mergetool]
-	keepBackup = false
 [credential]
 	helper = cache
 [help]
