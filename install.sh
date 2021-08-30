@@ -13,7 +13,7 @@ fi
 cp ~/dotfiles/config/git/config ~/.gitconfig
 
 echo '> Fish configuration'
-cp ~/dotfiles/config/fish ~/.config/fish/config.fish
+cp ~/dotfiles/config/config.fish ~/.config/fish/config.fish
 echo exec fish >> ~/.bash_profile
 
 echo '> Tmux configuration'
