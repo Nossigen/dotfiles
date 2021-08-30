@@ -13,11 +13,11 @@ echo '> Git configuration'
 if [ -f ~/.gitconfig ]; then
   rm -fi "~/.gitconfig"
 fi
-cp -f "$DIR/config/git/config" ~/.gitconfig
+cp "$DIR/config/git/config" ~/.gitconfig
 
 echo '> Fish configuration'
 
-cp -f "$DIR/config/fish" ~/.config/fish/config.fish
+cp "$DIR/config/fish" ~/.config/fish/config.fish
 echo exec fish >> ~/.bash_profile
 
 echo '> Tmux configuration'
