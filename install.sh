@@ -1,5 +1,8 @@
 #!/bin/bash
 
+mkdir -p ~/.config/fish
+mkdir -p ~/.config/tmux
+
 echo '> Bashrc configuration'
 echo '# Vincent Gendron configuration' >> ~/.bashrc
 echo 'if [ -f ~/dotfiles/config/bashrc ]; then' >> ~/.bashrc
