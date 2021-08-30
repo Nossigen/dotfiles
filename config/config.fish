@@ -1,8 +1,9 @@
 
 # Aliases
-alias web="cd /var/www"
+alias web='cd /var/www'
 alias ls='~/.cargo/bin/lsd'
 alias ll="ls -l --color=always --si --time-style iso"
+alias tmux='tmux -f ~/.config/tmux/tmux2'
 
 function cs
     cd $argv
