@@ -20,5 +20,5 @@ cp ~/dotfiles/config/config.fish ~/.config/fish/config.fish
 echo exec fish >> ~/.bash_profile
 
 echo '> Tmux configuration'
-cp -rf ~/dotfiles/config/tmux ~/.config/tmux
+cp -rf ~/dotfiles/config/tmux ~/.config/
 git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
