@@ -8,7 +8,7 @@ echo 'fi' >> ~/.bashrc
 
 echo '> Git configuration'
 if [ -f ~/.gitconfig ]; then
-  rm "~/.gitconfig"
+  rm ~/.gitconfig
 fi
 cp ~/dotfiles/config/git/config ~/.gitconfig
 
