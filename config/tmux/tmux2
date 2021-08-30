@@ -107,3 +107,6 @@ bind -n C-S-Down resize-pane -D 3
 
 bind -n C-x kill-pane
 
+set -g @plugin 'tmux-plugins/tpm'
+set -g @plugin 'tmux-plugins/tmux-sensible'
+set -g @plugin 'tmux-plugins/tmux-resurrect'
