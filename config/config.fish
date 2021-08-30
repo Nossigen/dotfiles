@@ -1,6 +1,4 @@
-alias web="cd /var/www/vg"
-
-
+alias ls='~/.cargo/bin/lsd'
 
 function fish_prompt
     set -l git_branch (git branch ^/dev/null | sed -n '/\* /s///p')
