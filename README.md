@@ -4,15 +4,9 @@
 
 ### Windows
 
-1. Install scoop
+1. Install rotz [rotz](https://volllly.github.io/rotz/docs/getting-started#scoop)
   ```powershell
-  Set-ExecutionPolicy RemoteSigned -Scope CurrentUser # Optional: Needed to run a remote script the first time
-  irm get.scoop.sh | iex
-  ```
-2. Install rotz [rotz](https://volllly.github.io/rotz/docs/getting-started#scoop)
-3. Install git
-  ```bash
-    winget install Git.Git
+    irm volllly.github.io/rotz/install.ps1 | iex
   ```
 
 ### Linux
