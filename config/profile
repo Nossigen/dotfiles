@@ -1,4 +1,0 @@
-export $PATH='$PATH:'
-
-export $EDITOR='micro'
-export $TERMINAL='xterm'
