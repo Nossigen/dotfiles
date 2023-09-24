@@ -1,0 +1,9 @@
+windows:
+  installs:
+    cmd : scoop install whkd && scoop install komorebi
+  depends: 
+    - scoop
+  
+  links:
+    komorebi.json: ~/komoberi.json    
+    whkdrc: ~/.config/whkdrc 
