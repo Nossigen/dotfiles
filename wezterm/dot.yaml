@@ -1,0 +1,6 @@
+
+windows:
+  installs: scoop install wezterm
+
+  links:
+    wezterm.lua: ~/wezterm.lua

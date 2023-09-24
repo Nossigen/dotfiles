@@ -1,0 +1,8 @@
+
+windows:
+  links:
+    ./config.toml: ~/AppData/Roaming/helix/config.toml
+
+  installs: winget install Helix.Helix
+
+

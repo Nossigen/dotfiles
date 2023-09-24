@@ -1,0 +1,4 @@
+
+windows:
+  installs: scoop install delta
+

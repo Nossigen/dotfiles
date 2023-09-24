@@ -1,0 +1,1051 @@
+{
+    "$help": "https://aka.ms/terminal-documentation",
+    "$schema": "https://aka.ms/terminal-profiles-schema",
+    "actions": 
+    [
+        {
+            "command": "find"
+        },
+        {
+            "command": "paste"
+        },
+        {
+            "command": 
+            {
+                "action": "copy",
+                "singleLine": false
+            }
+        },
+        {
+            "command": 
+            {
+                "action": "splitPane",
+                "split": "auto",
+                "splitMode": "duplicate"
+            }
+        },
+        {
+            "command": "unbound",
+            "keys": "ctrl+shift+w"
+        },
+        {
+            "command": "unbound",
+            "keys": "ctrl+shift+t"
+        },
+        {
+            "command": "unbound",
+            "keys": "ctrl+shift+1"
+        },
+        {
+            "command": "unbound",
+            "keys": "ctrl+shift+2"
+        },
+        {
+            "command": "unbound",
+            "keys": "ctrl+shift+3"
+        },
+        {
+            "command": "unbound",
+            "keys": "ctrl+shift+4"
+        },
+        {
+            "command": "unbound",
+            "keys": "ctrl+alt+left"
+        },
+        {
+            "command": "unbound",
+            "keys": "alt+up"
+        },
+        {
+            "command": "unbound",
+            "keys": "ctrl+shift+5"
+        },
+        {
+            "command": "unbound",
+            "keys": "ctrl+shift+n"
+        },
+        {
+            "command": "unbound",
+            "keys": "ctrl+shift+up"
+        },
+        {
+            "command": "unbound",
+            "keys": "ctrl+insert"
+        },
+        {
+            "command": "unbound",
+            "keys": "ctrl+c"
+        },
+        {
+            "command": "unbound",
+            "keys": "ctrl+minus"
+        },
+        {
+            "command": "unbound",
+            "keys": "ctrl+numpad_minus"
+        },
+        {
+            "command": "unbound",
+            "keys": "alt+shift+d"
+        },
+        {
+            "command": "unbound",
+            "keys": "ctrl+shift+d"
+        },
+        {
+            "command": "unbound",
+            "keys": "ctrl+shift+f"
+        },
+        {
+            "command": "unbound",
+            "keys": "ctrl+plus"
+        },
+        {
+            "command": "unbound",
+            "keys": "alt+down"
+        },
+        {
+            "command": "unbound",
+            "keys": "alt+left"
+        },
+        {
+            "command": "unbound",
+            "keys": "alt+right"
+        },
+        {
+            "command": "unbound",
+            "keys": "ctrl+shift+6"
+        },
+        {
+            "command": "unbound",
+            "keys": "ctrl+shift+7"
+        },
+        {
+            "command": "unbound",
+            "keys": "ctrl+shift+8"
+        },
+        {
+            "command": "unbound",
+            "keys": "ctrl+shift+9"
+        },
+        {
+            "command": "unbound",
+            "keys": "ctrl+shift+space"
+        },
+        {
+            "command": "unbound",
+            "keys": "shift+insert"
+        },
+        {
+            "command": "unbound",
+            "keys": "ctrl+v"
+        },
+        {
+            "command": "unbound",
+            "keys": "ctrl+0"
+        },
+        {
+            "command": "unbound",
+            "keys": "alt+shift+down"
+        },
+        {
+            "command": "unbound",
+            "keys": "alt+shift+left"
+        },
+        {
+            "command": "unbound",
+            "keys": "alt+enter"
+        },
+        {
+            "command": "unbound",
+            "keys": "ctrl+alt+1"
+        },
+        {
+            "command": "unbound",
+            "keys": "ctrl+alt+2"
+        },
+        {
+            "command": "unbound",
+            "keys": "ctrl+alt+3"
+        },
+        {
+            "command": "unbound",
+            "keys": "ctrl+alt+4"
+        },
+        {
+            "command": "unbound",
+            "keys": "ctrl+alt+5"
+        },
+        {
+            "command": "unbound",
+            "keys": "win+sc(41)"
+        },
+        {
+            "command": "unbound",
+            "keys": "alt+shift+plus"
+        },
+        {
+            "command": "unbound",
+            "keys": "alt+shift+minus"
+        },
+        {
+            "command": "unbound",
+            "keys": "ctrl+alt+6"
+        },
+        {
+            "command": "unbound",
+            "keys": "ctrl+alt+7"
+        },
+        {
+            "command": "unbound",
+            "keys": "ctrl+alt+8"
+        },
+        {
+            "command": "unbound",
+            "keys": "ctrl+alt+9"
+        },
+        {
+            "command": "unbound",
+            "keys": "ctrl+shift+p"
+        },
+        {
+            "command": "unbound",
+            "keys": "ctrl+shift+pgup"
+        },
+        {
+            "command": "unbound",
+            "keys": "ctrl+shift+home"
+        },
+        {
+            "command": "unbound",
+            "keys": "ctrl+shift+end"
+        },
+        {
+            "command": "unbound",
+            "keys": "ctrl+shift+pgdn"
+        },
+        {
+            "command": "unbound",
+            "keys": "ctrl+shift+down"
+        },
+        {
+            "command": "unbound",
+            "keys": "alt+shift+up"
+        },
+        {
+            "command": "unbound",
+            "keys": "alt+shift+right"
+        },
+        {
+            "command": "unbound",
+            "keys": "ctrl+tab"
+        },
+        {
+            "command": "unbound",
+            "keys": "ctrl+shift+tab"
+        },
+        {
+            "command": "quit",
+            "keys": "alt+f4"
+        }
+    ],
+    "copyFormatting": "none",
+    "copyOnSelect": true,
+    "defaultProfile": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+    "experimental.rendering.forceFullRepaint": true,
+    "launchMode": "maximized",
+    "newTabMenu": 
+    [
+        {
+            "type": "remainingProfiles"
+        }
+    ],
+    "profiles": 
+    {
+        "defaults": 
+        {
+            "bellStyle": "taskbar",
+            "colorScheme": "Catppuccin Latte",
+            "startingDirectory": null,
+            "suppressApplicationTitle": true
+        },
+        "list": 
+        [
+            {
+                "font": 
+                {
+                    "face": "MesloLGMDZ Nerd Font Mono"
+                },
+                "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+                "hidden": false,
+                "name": "Windows PowerShell"
+            },
+            {
+                "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+                "hidden": true,
+                "name": "Invite de commandes"
+            },
+            {
+                "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
+                "hidden": true,
+                "name": "Azure Cloud Shell",
+                "source": "Windows.Terminal.Azure"
+            },
+            {
+                "colorScheme": "One Half Dark",
+                "commandline": "ssh debian@vps-7673280f.vps.ovh.net -p 2022",
+                "font": 
+                {
+                    "face": "FiraCode Nerd Font",
+                    "size": 14.0
+                },
+                "guid": "{da566704-084f-456d-b67f-ecafe569b068}",
+                "historySize": 100000,
+                "name": "Oxygen",
+                "suppressApplicationTitle": true,
+                "tabTitle": "Oxygen"
+            },
+            {
+                "colorScheme": "One Half Dark",
+                "commandline": "ssh.exe vincent.gendron@VM19044",
+                "font": 
+                {
+                    "face": "FiraCode Nerd Font",
+                    "size": 14.0
+                },
+                "guid": "{30caea86-c6d5-4013-aba6-a8b982076c34}",
+                "historySize": 100000,
+                "name": "VM19044",
+                "suppressApplicationTitle": true,
+                "tabTitle": "VM19044"
+            },
+            {
+                "colorScheme": "Ayu",
+                "commandline": "C:\\Users\\vincent.gendron\\Work\\Projets\\Internal\\Terminal\\SSH\\connect-sv129st.bat",
+                "font": 
+                {
+                    "face": "MesloLGMDZ Nerd Font Mono",
+                    "size": 12.0
+                },
+                "guid": "{ef5cc2d7-e073-4dbc-9477-d72978c7596a}",
+                "hidden": false,
+                "historySize": 100000,
+                "intenseTextStyle": "none",
+                "name": "sv129st",
+                "padding": "0",
+                "scrollbarState": "hidden",
+                "suppressApplicationTitle": true,
+                "tabTitle": "sv129st"
+            },
+            {
+                "altGrAliasing": true,
+                "antialiasingMode": "grayscale",
+                "backgroundImage": "C:\\Users\\vincent.gendron\\Pictures\\wallhaven-95kpld.jpg",
+                "backgroundImageOpacity": 0.21,
+                "bellStyle": "none",
+                "closeOnExit": "graceful",
+                "colorScheme": "Ayu",
+                "commandline": "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+                "cursorShape": "bar",
+                "font": 
+                {
+                    "face": "MesloLGLDZ Nerd Font",
+                    "size": 12.0
+                },
+                "guid": "{8da6ca7b-75ed-433f-9a84-662642a61dc3}",
+                "hidden": false,
+                "historySize": 9001,
+                "icon": "ms-appx:///ProfileIcons/{61c54bbd-c2c6-5271-96e7-009a87ff44bf}.png",
+                "name": "Fedora35 (Vagrant)",
+                "padding": "8, 8, 8, 8",
+                "snapOnInput": true,
+                "startingDirectory": "C:\\Users\\vincent.gendron\\Code\\Vagrant\\vagrant-fedora",
+                "tabTitle": "Fedora35 (Vagrant)",
+                "useAcrylic": false
+            },
+            {
+                "altGrAliasing": false,
+                "backgroundImage": null,
+                "backgroundImageAlignment": "bottomRight",
+                "backgroundImageOpacity": 0.15,
+                "backgroundImageStretchMode": "none",
+                "closeOnExit": "always",
+                "colorScheme": "Ayu",
+                "commandline": "\"C:\\Program Files\\Git\\bin\\bash.exe\" -login -i",
+                "cursorShape": "bar",
+                "font": 
+                {
+                    "face": "MesloLGMDZ Nerd Font Mono",
+                    "size": 12.0
+                },
+                "guid": "{9b9426f0-ded9-44c1-82a8-d27cd330d6d5}",
+                "hidden": false,
+                "historySize": 9431,
+                "icon": "%LOCALAPPDATA%\\Packages\\WhitewaterFoundryLtd.Co.FedoraRemixforWSLSL_zxdhfybd17krt\\LocalState\\fedoraremix.png",
+                "name": "Git bash",
+                "opacity": 85,
+                "padding": "0",
+                "scrollbarState": "hidden",
+                "useAcrylic": false
+            },
+            {
+                "altGrAliasing": true,
+                "antialiasingMode": "grayscale",
+                "backgroundImage": "C:\\Users\\vincent.gendron\\Pictures\\wallhaven-95kpld.jpg",
+                "backgroundImageOpacity": 0.0,
+                "bellStyle": "none",
+                "closeOnExit": "graceful",
+                "colorScheme": "TokyoNight Night",
+                "commandline": "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe -Command \"vagrant ssh\"",
+                "cursorShape": "bar",
+                "font": 
+                {
+                    "face": "MesloLGLDZ Nerd Font",
+                    "size": 12.0
+                },
+                "guid": "{2b6a8210-a048-4093-af54-9a7dee543a03}",
+                "hidden": false,
+                "historySize": 9001,
+                "icon": "ms-appx:///ProfileIcons/{61c54bbd-c2c6-5271-96e7-009a87ff44bf}.png",
+                "name": "Server",
+                "padding": "0",
+                "scrollbarState": "hidden",
+                "snapOnInput": true,
+                "startingDirectory": "C:\\Users\\vincent.gendron\\Code\\Vagrant\\server\\server",
+                "tabTitle": "Server",
+                "useAcrylic": false
+            },
+            {
+                "adjustIndistinguishableColors": "never",
+                "colorScheme": "Catppuccin Latte",
+                "commandline": "powershell.exe -noexit \"& 'C:\\Users\\vincent.gendron\\Work\\Projets\\Internal\\Terminal\\SSH\\connect-VM21075.ps1'",
+                "font": 
+                {
+                    "face": "FiraCode Nerd Font",
+                    "size": 12.0
+                },
+                "guid": "{dc182a93-fc51-4e04-98f9-91bf3652eceb}",
+                "hidden": false,
+                "historySize": 100000,
+                "intenseTextStyle": "none",
+                "name": "VM21075",
+                "opacity": 14,
+                "padding": "1",
+                "scrollbarState": "hidden",
+                "suppressApplicationTitle": true,
+                "tabTitle": "VM21075",
+                "useAcrylic": true
+            },
+            {
+                "colorScheme": "TokyoNight Night",
+                "commandline": "ssh vincent.gendron@VM21062",
+                "font": 
+                {
+                    "face": "MesloLGMDZ Nerd Font Mono",
+                    "size": 12.0
+                },
+                "guid": "{341c17b8-0670-427f-9bb5-4280fce7580e}",
+                "hidden": false,
+                "historySize": 100000,
+                "intenseTextStyle": "none",
+                "name": "VM21062 (PHP 7.4)",
+                "padding": "0",
+                "scrollbarState": "hidden",
+                "suppressApplicationTitle": true,
+                "tabTitle": "VM21062"
+            },
+            {
+                "altGrAliasing": true,
+                "antialiasingMode": "grayscale",
+                "backgroundImage": "C:\\Users\\vincent.gendron\\Pictures\\wallhaven-95kpld.jpg",
+                "backgroundImageOpacity": 0.0,
+                "bellStyle": "none",
+                "closeOnExit": "graceful",
+                "colorScheme": "TokyoNight Night",
+                "commandline": "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+                "cursorShape": "bar",
+                "font": 
+                {
+                    "face": "MesloLGLDZ Nerd Font",
+                    "size": 12.0
+                },
+                "guid": "{b6163888-3cd4-4320-b57e-d49292f47a52}",
+                "hidden": false,
+                "historySize": 9001,
+                "icon": "ms-appx:///ProfileIcons/{61c54bbd-c2c6-5271-96e7-009a87ff44bf}.png",
+                "name": "Vagrant",
+                "padding": "0",
+                "scrollbarState": "hidden",
+                "snapOnInput": true,
+                "startingDirectory": "C:\\Users\\vincent.gendron\\Code\\Vagrant\\server\\server",
+                "tabTitle": "Vagrant",
+                "useAcrylic": false
+            },
+            {
+                "guid": "{51855cb2-8cce-5362-8f54-464b92b32386}",
+                "hidden": false,
+                "name": "Ubuntu",
+                "source": "CanonicalGroupLimited.Ubuntu_79rhkp1fndgsc"
+            },
+            {
+                "colorScheme": "TokyoNight Night",
+                "commandline": "C:\\Users\\vincent.gendron\\Work\\Projets\\Internal\\Terminal\\SSH\\connect-VM21076.bat",
+                "font": 
+                {
+                    "face": "FiraCode Nerd Font",
+                    "size": 14.0
+                },
+                "guid": "{9e9a20c0-ba3a-4ce3-a48f-1ddba4267a9f}",
+                "hidden": false,
+                "historySize": 100000,
+                "name": "VM21076",
+                "suppressApplicationTitle": true,
+                "tabTitle": "VM21076"
+            },
+            {
+                "colorScheme": "TokyoNight Night",
+                "commandline": "C:\\Users\\vincent.gendron\\Work\\Projets\\Internal\\Terminal\\SSH\\connect-VM21063.bat",
+                "font": 
+                {
+                    "face": "FiraCode Nerd Font",
+                    "size": 14.0
+                },
+                "guid": "{31abc80d-1463-4e14-917e-9994b9204d08}",
+                "hidden": false,
+                "historySize": 100000,
+                "name": "VM21063",
+                "suppressApplicationTitle": true,
+                "tabTitle": "VM21063"
+            },
+            {
+                "colorScheme": "TokyoNight Night",
+                "commandline": "wsl.exe -d FedoraRemix -u nossigen",
+                "font": 
+                {
+                    "face": "FiraCode Nerd Font",
+                    "size": 12.0
+                },
+                "guid": "{82d4d00e-fdf7-460e-9ae1-d9d7bdeb0093}",
+                "hidden": false,
+                "historySize": 100000,
+                "name": "Home",
+                "suppressApplicationTitle": true,
+                "tabTitle": "Home"
+            },
+            {
+                "colorScheme": "TokyoNight Night",
+                "commandline": "wsl.exe -d FedoraRemix -u nossigen --exec /usr/bin/fish -c \"cd ~/connect && ~/connect/connect.fish\"",
+                "font": 
+                {
+                    "face": "FiraCode Nerd Font",
+                    "size": 10.0
+                },
+                "guid": "{978956f4-889a-4c13-b416-515a5528ecaa}",
+                "hidden": false,
+                "historySize": 100000,
+                "icon": "C:\\Users\\vincent.gendron\\Pictures\\meta-image.png",
+                "name": "Connect",
+                "suppressApplicationTitle": true,
+                "tabTitle": "Connect"
+            },
+            {
+                "colorScheme": "Catppuccin Latte",
+                "commandline": "powershell.exe -noexit \"& 'C:\\Users\\vincent.gendron\\Work\\Projets\\Internal\\Terminal\\SSH\\connect-sv55st.ps1'",
+                "font": 
+                {
+                    "face": "FiraCode Nerd Font",
+                    "size": 12.0
+                },
+                "guid": "{81ff8726-fc95-498c-8246-a73a2326cc0a}",
+                "hidden": false,
+                "historySize": 100000,
+                "intenseTextStyle": "none",
+                "name": "sv55st",
+                "padding": "1",
+                "scrollbarState": "hidden",
+                "suppressApplicationTitle": true,
+                "tabTitle": "sv55st"
+            },
+            {
+                "guid": "{8ab8e6f6-35c6-5b46-8419-3e1568105476}",
+                "hidden": false,
+                "name": "podman-machine-default",
+                "source": "Windows.Terminal.Wsl"
+            },
+            {
+                "colorScheme": "Catppuccin Latte",
+                "commandline": "powershell.exe -noexit \"& 'C:\\Users\\vincent.gendron\\Work\\Projets\\Internal\\Terminal\\SSH\\connect-sv56st.ps1'",
+                "font": 
+                {
+                    "face": "FiraCode Nerd Font",
+                    "size": 12.0
+                },
+                "guid": "{c9526df8-b609-4fe7-b279-9ff3469c7c49}",
+                "hidden": false,
+                "historySize": 100000,
+                "intenseTextStyle": "none",
+                "name": "sv56st",
+                "padding": "1",
+                "scrollbarState": "hidden",
+                "suppressApplicationTitle": true,
+                "tabTitle": "sv56st"
+            },
+            {
+                "adjustIndistinguishableColors": "never",
+                "colorScheme": "Catppuccin Mocha",
+                "commandline": "ssh sully@vm23059",
+                "experimental.retroTerminalEffect": false,
+                "font": 
+                {
+                    "face": "FiraCode Nerd Font",
+                    "size": 12.0
+                },
+                "guid": "{13fe5685-c260-4556-8696-d236bcfc6cfe}",
+                "hidden": false,
+                "historySize": 100000,
+                "intenseTextStyle": "none",
+                "name": "VM23059",
+                "opacity": 14,
+                "padding": "1",
+                "scrollbarState": "hidden",
+                "suppressApplicationTitle": true,
+                "tabTitle": "VM23059",
+                "useAcrylic": false
+            }
+        ]
+    },
+    "schemes": 
+    [
+        {
+            "background": "#0F1419",
+            "black": "#000000",
+            "blue": "#36A3D9",
+            "brightBlack": "#323232",
+            "brightBlue": "#68D5FF",
+            "brightCyan": "#C7FFFD",
+            "brightGreen": "#EAFE84",
+            "brightPurple": "#695380",
+            "brightRed": "#FF6565",
+            "brightWhite": "#FFFFFF",
+            "brightYellow": "#FFF779",
+            "cursorColor": "#F29718",
+            "cyan": "#95E6CB",
+            "foreground": "#E6E1CF",
+            "green": "#B8CC52",
+            "name": "Ayu",
+            "purple": "#6C5980",
+            "red": "#FF3333",
+            "selectionBackground": "#253340",
+            "white": "#FFFFFF",
+            "yellow": "#E7C547"
+        },
+        {
+            "background": "#0C0C0C",
+            "black": "#0C0C0C",
+            "blue": "#0037DA",
+            "brightBlack": "#767676",
+            "brightBlue": "#3B78FF",
+            "brightCyan": "#61D6D6",
+            "brightGreen": "#16C60C",
+            "brightPurple": "#B4009E",
+            "brightRed": "#E74856",
+            "brightWhite": "#F2F2F2",
+            "brightYellow": "#F9F1A5",
+            "cursorColor": "#FFFFFF",
+            "cyan": "#3A96DD",
+            "foreground": "#CCCCCC",
+            "green": "#13A10E",
+            "name": "Campbell",
+            "purple": "#881798",
+            "red": "#C50F1F",
+            "selectionBackground": "#FFFFFF",
+            "white": "#CCCCCC",
+            "yellow": "#C19C00"
+        },
+        {
+            "background": "#012456",
+            "black": "#0C0C0C",
+            "blue": "#0037DA",
+            "brightBlack": "#767676",
+            "brightBlue": "#3B78FF",
+            "brightCyan": "#61D6D6",
+            "brightGreen": "#16C60C",
+            "brightPurple": "#B4009E",
+            "brightRed": "#E74856",
+            "brightWhite": "#F2F2F2",
+            "brightYellow": "#F9F1A5",
+            "cursorColor": "#FFFFFF",
+            "cyan": "#3A96DD",
+            "foreground": "#CCCCCC",
+            "green": "#13A10E",
+            "name": "Campbell Powershell",
+            "purple": "#881798",
+            "red": "#C50F1F",
+            "selectionBackground": "#FFFFFF",
+            "white": "#CCCCCC",
+            "yellow": "#C19C00"
+        },
+        {
+            "background": "#EFF1F5",
+            "black": "#5C5F77",
+            "blue": "#1E66F5",
+            "brightBlack": "#ACB0BE",
+            "brightBlue": "#1E66F5",
+            "brightCyan": "#179299",
+            "brightGreen": "#40A02B",
+            "brightPurple": "#EA76CB",
+            "brightRed": "#D20F39",
+            "brightWhite": "#BCC0CC",
+            "brightYellow": "#DF8E1D",
+            "cursorColor": "#DC8A78",
+            "cyan": "#179299",
+            "foreground": "#4C4F69",
+            "green": "#40A02B",
+            "name": "Catppuccin Latte",
+            "purple": "#EA76CB",
+            "red": "#D20F39",
+            "selectionBackground": "#ACB0BE",
+            "white": "#ACB0BE",
+            "yellow": "#DF8E1D"
+        },
+        {
+            "background": "#1E1E2E",
+            "black": "#45475A",
+            "blue": "#89B4FA",
+            "brightBlack": "#585B70",
+            "brightBlue": "#89B4FA",
+            "brightCyan": "#94E2D5",
+            "brightGreen": "#A6E3A1",
+            "brightPurple": "#F5C2E7",
+            "brightRed": "#F38BA8",
+            "brightWhite": "#A6ADC8",
+            "brightYellow": "#F9E2AF",
+            "cursorColor": "#F5E0DC",
+            "cyan": "#94E2D5",
+            "foreground": "#CDD6F4",
+            "green": "#A6E3A1",
+            "name": "Catppuccin Mocha",
+            "purple": "#F5C2E7",
+            "red": "#F38BA8",
+            "selectionBackground": "#585B70",
+            "white": "#BAC2DE",
+            "yellow": "#F9E2AF"
+        },
+        {
+            "background": "#1E1E1E",
+            "black": "#171421",
+            "blue": "#12488B",
+            "brightBlack": "#5E5C64",
+            "brightBlue": "#2A7BDE",
+            "brightCyan": "#33C7DE",
+            "brightGreen": "#33DA7A",
+            "brightPurple": "#C061CB",
+            "brightRed": "#F66151",
+            "brightWhite": "#FFFFFF",
+            "brightYellow": "#E9AD0C",
+            "cursorColor": "#FFFFFF",
+            "cyan": "#2AA1B3",
+            "foreground": "#E8E8E8",
+            "green": "#26A269",
+            "name": "Fedora Remix for WSL",
+            "purple": "#A347BA",
+            "red": "#C01C28",
+            "selectionBackground": "#FFFFFF",
+            "white": "#D0CFCC",
+            "yellow": "#A2734C"
+        },
+        {
+            "background": "#282C34",
+            "black": "#282C34",
+            "blue": "#61AFEF",
+            "brightBlack": "#5A6374",
+            "brightBlue": "#61AFEF",
+            "brightCyan": "#56B6C2",
+            "brightGreen": "#98C379",
+            "brightPurple": "#C678DD",
+            "brightRed": "#E06C75",
+            "brightWhite": "#DCDFE4",
+            "brightYellow": "#E5C07B",
+            "cursorColor": "#FFFFFF",
+            "cyan": "#56B6C2",
+            "foreground": "#DCDFE4",
+            "green": "#98C379",
+            "name": "One Half Dark",
+            "purple": "#C678DD",
+            "red": "#E06C75",
+            "selectionBackground": "#FFFFFF",
+            "white": "#DCDFE4",
+            "yellow": "#E5C07B"
+        },
+        {
+            "background": "#FAFAFA",
+            "black": "#383A42",
+            "blue": "#0184BC",
+            "brightBlack": "#4F525D",
+            "brightBlue": "#61AFEF",
+            "brightCyan": "#56B5C1",
+            "brightGreen": "#98C379",
+            "brightPurple": "#C577DD",
+            "brightRed": "#DF6C75",
+            "brightWhite": "#FFFFFF",
+            "brightYellow": "#E4C07A",
+            "cursorColor": "#4F525D",
+            "cyan": "#0997B3",
+            "foreground": "#383A42",
+            "green": "#50A14F",
+            "name": "One Half Light",
+            "purple": "#A626A4",
+            "red": "#E45649",
+            "selectionBackground": "#FFFFFF",
+            "white": "#FAFAFA",
+            "yellow": "#C18301"
+        },
+        {
+            "background": "#002B36",
+            "black": "#002B36",
+            "blue": "#268BD2",
+            "brightBlack": "#073642",
+            "brightBlue": "#839496",
+            "brightCyan": "#93A1A1",
+            "brightGreen": "#586E75",
+            "brightPurple": "#6C71C4",
+            "brightRed": "#CB4B16",
+            "brightWhite": "#FDF6E3",
+            "brightYellow": "#657B83",
+            "cursorColor": "#FFFFFF",
+            "cyan": "#2AA198",
+            "foreground": "#839496",
+            "green": "#859900",
+            "name": "Solarized Dark",
+            "purple": "#D33682",
+            "red": "#DC322F",
+            "selectionBackground": "#FFFFFF",
+            "white": "#EEE8D5",
+            "yellow": "#B58900"
+        },
+        {
+            "background": "#FDF6E3",
+            "black": "#002B36",
+            "blue": "#268BD2",
+            "brightBlack": "#073642",
+            "brightBlue": "#839496",
+            "brightCyan": "#93A1A1",
+            "brightGreen": "#586E75",
+            "brightPurple": "#6C71C4",
+            "brightRed": "#CB4B16",
+            "brightWhite": "#FDF6E3",
+            "brightYellow": "#657B83",
+            "cursorColor": "#002B36",
+            "cyan": "#2AA198",
+            "foreground": "#657B83",
+            "green": "#859900",
+            "name": "Solarized Light",
+            "purple": "#D33682",
+            "red": "#DC322F",
+            "selectionBackground": "#FFFFFF",
+            "white": "#EEE8D5",
+            "yellow": "#B58900"
+        },
+        {
+            "background": "#000000",
+            "black": "#000000",
+            "blue": "#3465A4",
+            "brightBlack": "#555753",
+            "brightBlue": "#729FCF",
+            "brightCyan": "#34E2E2",
+            "brightGreen": "#8AE234",
+            "brightPurple": "#AD7FA8",
+            "brightRed": "#EF2929",
+            "brightWhite": "#EEEEEC",
+            "brightYellow": "#FCE94F",
+            "cursorColor": "#FFFFFF",
+            "cyan": "#06989A",
+            "foreground": "#D3D7CF",
+            "green": "#4E9A06",
+            "name": "Tango Dark",
+            "purple": "#75507B",
+            "red": "#CC0000",
+            "selectionBackground": "#FFFFFF",
+            "white": "#D3D7CF",
+            "yellow": "#C4A000"
+        },
+        {
+            "background": "#FFFFFF",
+            "black": "#000000",
+            "blue": "#3465A4",
+            "brightBlack": "#555753",
+            "brightBlue": "#729FCF",
+            "brightCyan": "#34E2E2",
+            "brightGreen": "#8AE234",
+            "brightPurple": "#AD7FA8",
+            "brightRed": "#EF2929",
+            "brightWhite": "#EEEEEC",
+            "brightYellow": "#FCE94F",
+            "cursorColor": "#000000",
+            "cyan": "#06989A",
+            "foreground": "#555753",
+            "green": "#4E9A06",
+            "name": "Tango Light",
+            "purple": "#75507B",
+            "red": "#CC0000",
+            "selectionBackground": "#FFFFFF",
+            "white": "#D3D7CF",
+            "yellow": "#C4A000"
+        },
+        {
+            "background": "#1A1B26",
+            "black": "#15161E",
+            "blue": "#7AA2F7",
+            "brightBlack": "#414868",
+            "brightBlue": "#7AA2F7",
+            "brightCyan": "#7DCFFF",
+            "brightGreen": "#9ECE6A",
+            "brightPurple": "#BB9AF7",
+            "brightRed": "#F7768E",
+            "brightWhite": "#C0CAF5",
+            "brightYellow": "#E0AF68",
+            "cursorColor": "#C0CAF5",
+            "cyan": "#7DCFFF",
+            "foreground": "#C0CAF5",
+            "green": "#9ECE6A",
+            "name": "TokyoNight Night",
+            "purple": "#BB9AF7",
+            "red": "#DB4B4B",
+            "selectionBackground": "#33467C",
+            "white": "#A9B1D6",
+            "yellow": "#FF9E64"
+        },
+        {
+            "background": "#300A24",
+            "black": "#171421",
+            "blue": "#0037DA",
+            "brightBlack": "#767676",
+            "brightBlue": "#08458F",
+            "brightCyan": "#2C9FB3",
+            "brightGreen": "#26A269",
+            "brightPurple": "#A347BA",
+            "brightRed": "#C01C28",
+            "brightWhite": "#F2F2F2",
+            "brightYellow": "#A2734C",
+            "cursorColor": "#FFFFFF",
+            "cyan": "#3A96DD",
+            "foreground": "#FFFFFF",
+            "green": "#26A269",
+            "name": "Ubuntu-ColorScheme",
+            "purple": "#881798",
+            "red": "#C21A23",
+            "selectionBackground": "#FFFFFF",
+            "white": "#CCCCCC",
+            "yellow": "#A2734C"
+        },
+        {
+            "background": "#000000",
+            "black": "#000000",
+            "blue": "#000080",
+            "brightBlack": "#808080",
+            "brightBlue": "#0000FF",
+            "brightCyan": "#00FFFF",
+            "brightGreen": "#00FF00",
+            "brightPurple": "#FF00FF",
+            "brightRed": "#FF0000",
+            "brightWhite": "#FFFFFF",
+            "brightYellow": "#FFFF00",
+            "cursorColor": "#FFFFFF",
+            "cyan": "#008080",
+            "foreground": "#C0C0C0",
+            "green": "#008000",
+            "name": "Vintage",
+            "purple": "#800080",
+            "red": "#800000",
+            "selectionBackground": "#FFFFFF",
+            "white": "#C0C0C0",
+            "yellow": "#808000"
+        }
+    ],
+    "startOnUserLogin": true,
+    "tabSwitcherMode": "inOrder",
+    "theme": "Catppuccin Latte",
+    "themes": 
+    [
+        {
+            "name": "Catppuccin Latte",
+            "tab": 
+            {
+                "background": "#CCD0DAFF",
+                "showCloseButton": "always",
+                "unfocusedBackground": null
+            },
+            "tabRow": 
+            {
+                "background": "#EFF1F5FF",
+                "unfocusedBackground": "#E6E9EFFF"
+            },
+            "window": 
+            {
+                "applicationTheme": "light",
+                "useMica": false
+            }
+        },
+        {
+            "name": "Catppuccin Mocha",
+            "tab": 
+            {
+                "background": "#1E1E2EFF",
+                "showCloseButton": "always",
+                "unfocusedBackground": null
+            },
+            "tabRow": 
+            {
+                "background": "#181825FF",
+                "unfocusedBackground": "#11111BFF"
+            },
+            "window": 
+            {
+                "applicationTheme": "dark",
+                "useMica": false
+            }
+        },
+        {
+            "name": "legacyDark",
+            "tab": 
+            {
+                "background": null,
+                "showCloseButton": "always",
+                "unfocusedBackground": null
+            },
+            "window": 
+            {
+                "applicationTheme": "dark",
+                "useMica": false
+            }
+        },
+        {
+            "name": "legacyLight",
+            "tab": 
+            {
+                "background": null,
+                "showCloseButton": "always",
+                "unfocusedBackground": null
+            },
+            "window": 
+            {
+                "applicationTheme": "light",
+                "useMica": false
+            }
+        },
+        {
+            "name": "legacySystem",
+            "tab": 
+            {
+                "background": null,
+                "showCloseButton": "always",
+                "unfocusedBackground": null
+            },
+            "window": 
+            {
+                "applicationTheme": "system",
+                "useMica": false
+            }
+        }
+    ]
+}
