@@ -3,7 +3,7 @@ windows:
     cmd : scoop install whkd && scoop install komorebi
   depends: 
     - scoop
-  
   links:
-    komorebi.json: ~/komoberi.json    
-    whkdrc: ~/.config/whkdrc 
+    komorebi.json: ~/komorebi.json    
+    keymap: ~/.config/whkdrc 
+    applications.yaml: ~/.config/komorebi/applications.yaml

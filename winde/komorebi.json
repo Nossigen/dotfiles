@@ -1,20 +1,36 @@
 {
-  "app_specific_configuration_path": "$Env:USERPROFILE/applications.yaml",
+  "app_specific_configuration_path": "$Env:USERPROFILE/.config/komorebi/applications.yaml",
   "window_hiding_behaviour": "Cloak",
   "cross_monitor_move_behaviour": "Insert",
   "alt_focus_hack": true,
-  "default_workspace_padding": 10,
-  "default_container_padding": 10,
+  "default_workspace_padding": 5,
+  "default_container_padding": 1,
   "active_window_border": true,
+  "border_width": 5,
   "active_window_border_colours": {
-    "single": { "r": 66, "g": 165, "b": 245 },
+    "single": { "r": 180, "g": 190, "b": 254},
     "stack": { "r": 256, "g": 165, "b": 66 },
     "monocle": { "r": 255, "g": 51, "b": 153 }
   },
   "monitors": [
     {
       "workspaces": [
-        { "name": "I", "layout": "BSP" },
+        { 
+          "name": "I",
+          "layout": "BSP"
+        },
+        { "name": "II", "layout": "VerticalStack" },
+        { "name": "III", "layout": "HorizontalStack" },
+        { "name": "IV", "layout": "UltrawideVerticalStack" },
+        { "name": "V", "layout": "Rows" }
+      ]
+    },
+    {
+      "workspaces": [
+        { 
+          "name": "I",
+          "layout": "BSP"
+        },
         { "name": "II", "layout": "VerticalStack" },
         { "name": "III", "layout": "HorizontalStack" },
         { "name": "IV", "layout": "UltrawideVerticalStack" },
